@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect } from 'react';
 
 const STORAGE_KEY = 'prestamos_inframen';
@@ -161,19 +162,6 @@ function App() {
           INFRAMEN - Desarrollo de Software
         </p>
       </header>
-
-      <div
-        style={{
-          background: '#eff6ff',
-          padding: '12px',
-          borderRadius: '6px',
-          marginBottom: '20px',
-          fontSize: '14px',
-        }}
-      >
-        Modo de demostración: los registros se guardan en este navegador y
-        no se comparten automáticamente con otros dispositivos.
-      </div>
 
       <section
         style={{
@@ -388,7 +376,7 @@ function App() {
           marginTop: '20px',
         }}
       >
-        INFRAMEN · Sistema de demostración local
+        INFRAMEN 
       </footer>
     </main>
   );
